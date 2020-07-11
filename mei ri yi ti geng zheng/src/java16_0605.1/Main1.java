@@ -2,7 +2,7 @@ package java16_0605;
 
 import java.util.Scanner;
 
-public class Slect {
+public class Main1 {
     static int[] weight;
     static int N;
     static int count = 0;

@@ -2,15 +2,16 @@ package java16_0604;
 
 import java.util.Scanner;
 
-public class DleteString {
+public class Main2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()) {
-            char[] array = scanner.nextLine().toCharArray();
-            String string = scanner.nextLine();
+            String string1 = scanner.nextLine();
+            String string2 = scanner.nextLine();
+            char[] array = string1.toCharArray();
             for(int i = 0;i < array.length;i++) {
-                char c = array[i];
-                if(!string.contains(String.valueOf(c))) {
+                char c = string1.charAt(i);
+                if(!string2.contains(String.valueOf(c))) {
                     System.out.print(c);
                 }
             }

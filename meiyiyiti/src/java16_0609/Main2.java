@@ -6,16 +6,19 @@ import java.util.Scanner;
 public class Main2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String s = scanner.nextLine();
-        char[] a = s.toCharArray();
-        int[] b = new int[a.length];
-        int c = 0;
-        for(int x : a) {
-            b[c] = (int)x;
-            c++;
+        String string = scanner.nextLine();
+        String[] array = string.split(" ");
+        int[] num = new int[array.length - 1];
+        for(int i = 0;i < array.length - 1;i++) {
+            num[i] = Integer.parseInt(array[i]);
         }
-        Arrays.parallelSort(b,0,c - 1);
-        int[] array2 = Arrays.copyOfRange(b,0,b[c]);
-        System.out.println(Arrays.toString(array2));
+        int k = Integer.parseInt(array[array.length - 1]);
+        Arrays.sort(num);
+        for(int j = 0;j < k;j++) {
+            System.out.print(num[j]);
+            if(j < k - 1) {
+                System.out.print(" ");
+            }
+        }
     }
 }

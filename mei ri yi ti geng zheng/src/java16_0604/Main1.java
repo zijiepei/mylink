@@ -2,7 +2,7 @@ package java16_0604;
 
 import java.util.Scanner;
 
-public class BagLess {
+public class Main1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()) {
@@ -11,12 +11,12 @@ public class BagLess {
     }
 
     private static int count(int n) {
-        if(n < 6 || n == 10 || n % 2 != 0) {
+        if(n % 2 != 0 || n < 6 || n == 10) {
             return -1;
         }
         if(n % 8 == 0) {
             return n / 8;
         }
-        return  n / 8 + 1;
+        return n / 8 + 1;
     }
 }

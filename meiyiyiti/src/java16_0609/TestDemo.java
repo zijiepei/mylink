@@ -1,14 +1,26 @@
 package java16_0609;
 
 import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Scanner;
 
 public class TestDemo {
     public static void main(String[] args) {
-        /*Scanner scanner = new Scanner(System.in);
-        String s = scanner.nextLine();
-        String[] a =
-        char[] a = s.toCharArray();
-        System.out.println(a[0]);*/
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        if(n > 1000) {
+            n = 999;
+        }
+        List<Integer> list = new LinkedList<>();
+        for(int i = 0;i < n;i++) {
+            list.add(i);
+        }
+        int i = 0;
+        while (list.size() > 1) {
+            i = (i + 2) % list.size();
+            list.remove(i);
+        }
+        System.out.println(list.get(0));
     }
 }
