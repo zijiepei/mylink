@@ -1,7 +1,6 @@
 package java16_0626;
 
 import java.text.DecimalFormat;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main2 {
@@ -35,8 +34,8 @@ public class Main2 {
             for(int x : array) {
                 if(x % 5 == 1) {
                     count2++;
-                  sum += ret * x;
-                  ret *= -1;
+                    sum += ret * x;
+                    ret *= -1;
                 }
             }
             A2 = sum;
@@ -64,10 +63,10 @@ public class Main2 {
             int sum2 = 0;
             int count4 = 0;
             for(int x : array) {
-               if(x % 5 == 3) {
-                   sum2 += x;
-                   count4++;
-               }
+                if(x % 5 == 3) {
+                    sum2 += x;
+                    count4++;
+                }
             }
             float A42 = (float)sum2 / count4;
             DecimalFormat num = new DecimalFormat("0.0");
@@ -83,9 +82,9 @@ public class Main2 {
             for(int x : array) {
                 if(x % 5 == 4) {
                     count5++;
-                   if(x > max) {
-                       max = x;
-                   }
+                    if(x > max) {
+                        max = x;
+                    }
                 }
             }
             A5 = max;
