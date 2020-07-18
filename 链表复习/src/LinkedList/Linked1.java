@@ -175,12 +175,108 @@ public class Linked1 {
             end1.next = null;
             return beg1;
         }
-        if(beg1 != null && beg2 != null) {
             end1.next = beg2;
             end2.next = null;
-        }
         return beg1;
     }
+    public Node deleteDuplication(Node pHead){
+        Node newHead = new Node(-1);
+        Node tmp = newHead;
+        Node cur = pHead;
+        while (cur != null) {
+            if(cur.next != null && cur.val == cur.next.val) {
+                while (cur.next != null && cur.val == cur.next.val) {
+                    cur = cur.next;
+                }
+                cur = cur.next;
+            }else {
+                tmp.next = cur;
+                tmp = tmp.next;
+                cur = cur.next;
+            }
+        }
+        tmp.next = null;
+        return newHead.next;
+    }
+    public boolean chkPalindrome(Node A) {
+       Node slow = A;
+       Node fast = A;
+       while (fast != null && fast.next != null) {
+           slow = slow.next;
+           fast = fast.next.next;
+       }
+       Node cur = slow.next;
+       while (cur != null) {
+           Node curnext = cur.next;
+           cur.next = slow;
+           slow = cur;
+           cur = curnext;
+       }
+       while (slow != A) {
+           if(slow.val != A.val) {
+               return false;
+           }
+           if(A.next == slow) {
+               return true;
+           }
+           A = A.next;
+           slow = slow.next;
+       }
+       return true;
+    }
+    public Node getIntersectionNode(Node headA,Node headB) {
+        if(headA == null || headB == null) {
+            return null;
+        }
+        int lena = 0;
+        int lenb = 0;
+        Node curL = headA;
+        Node curS = headB;
+        while (curL != null) {
+            lena++;
+            curL = curL.next;
+        }
+        while (curS != null) {
+            lenb++;
+            curS = curS.next;
+        }
+        curL = headA;
+        curS = headB;
+        int len = lena - lenb;
+        if(len < 0) {
+            curL = headB;
+            curS = headA;
+            len = lenb - lena;
+        }
+        while (len > 0) {
+            curL = curL.next;
+            len--;
+        }
+        while (curL != curS) {
+            curL = curL.next;
+            curS = curS.next;
+        }
+        if(curL != null) {
+            return curL;
+        }
+        return null;
+    }
+    public boolean hasCycle(Node head) {
+        Node fast = head;
+        Node slow = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if(fast == slow) {
+                break;
+            }
+        }
+        if(fast == null || fast.next == null) {
+            return false;
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         Linked1 linked1 = new Linked1();
         linked1.addFirst(1);
