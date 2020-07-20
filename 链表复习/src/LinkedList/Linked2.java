@@ -1,110 +1,99 @@
 package LinkedList;
-class Node {
+class ListNode {
     public int val;
-    public Node next;
-    public Node(int val) {
+    public ListNode next;
+    public ListNode(int val) {
         this.val = val;
     }
 }
-public class Linked1 {
-    public Node head;
-    public Linked1() {
-        head = null;
+public class Linked2 {
+    public ListNode head;
+
+    public Linked2() {
+        this.head = null;
     }
     public void addFirst(int val) {
-        Node node = new Node(val);
         if(head == null) {
-            head = node;
-            return;
-        }else {
-            node.next = this.head;
-            head = node;
+            head = new ListNode(val);
         }
+        ListNode node = new ListNode(val);
+        node.next = head;
+        head = node;
     }
     public void display() {
-        Node cur = head;
+        ListNode cur = head;
         while (cur != null) {
             System.out.print(cur.val + " ");
             cur = cur.next;
         }
     }
-    public void display2(Node newHead) {
-        Node cur = newHead;
+    public void deletAllkey(int key) {
+        if(head == null) {
+            return;
+        }
+        if(head.val == key) {
+            head = head.next;
+        }
+        ListNode prev = head;
+        ListNode cur = prev.next;
         while (cur != null) {
-            System.out.print(cur.val + " ");
-            cur = cur.next;
+            if(cur.val == key) {
+                prev.next = cur.next;
+                cur = cur.next;
+            }else {
+                prev = cur;
+                cur = cur.next;
+            }
         }
     }
-    public void removeAllval(int val) {///删除所有值为val的节点
-       if(this.head == null) {
-           return;
-       }
-       Node prev = head;
-       Node cur = prev.next;
-       while (cur != null) {
-           if(cur.val == val) {
-               prev.next = cur.next;
-               cur = cur.next;
-           }else {
-               prev = prev.next;
-               cur = cur.next;
-           }
-       }
-       if(head.val == val) {
-           head = head.next;
-       }
-    }
-    public Node revrse() {
-        Node newhead = head;
+    public ListNode reverse() {
+        ListNode newHead = head;
         if(head == null) {
             return null;
         }
-        if(head.next == null) {
-            return newhead;
-        }
-        Node cur = head.next;
+        ListNode cur = head.next;
         while (cur != null) {
-            Node curNext = cur.next;
-            cur.next = newhead;
-            newhead = cur;
-            cur = curNext;
+            ListNode curnext = cur.next;
+            cur.next = newHead;
+            newHead = cur;
+            cur = curnext;
         }
         head.next = null;
-        return newhead;
+        return newHead;
     }
-    public Node revrse2() {
-        Node cur = head;
-        Node prev = null;
-        Node newNode = null;
+    public ListNode reverse2() {
+        ListNode cur = head;
+        ListNode prev = null;
+        ListNode newHead = null;
         while (cur != null) {
-            Node curNext = cur.next;
-            if(curNext == null) {
-                newNode = cur;
+            ListNode curnext = cur.next;
+            if(curnext == null) {
+                newHead = cur;
             }
             cur.next = prev;
             prev = cur;
-            cur = curNext;
+            cur = curnext;
         }
-        return newNode;
+        return newHead;
     }
-    public Node middleNode() {
+    public ListNode middleNode() {
         if(head == null) {
             return null;
         }
-        Node slow = head;
-        Node fast = head;
+        ListNode slow = head;
+        ListNode fast = head;
         while (fast != null && fast.next != null) {
             slow = slow.next;
-            fast = fast.next.next;
+            fast = fast.next;
         }
         return slow;
     }
-    public Node FindKthToTail(Node head,int k) {
+    public ListNode FindKthToTail(ListNode head,int k) {
         if(k <= 0 || head == null) {
             return null;
         }
-        Node slow = head;
-        Node fast = head;
+        ListNode slow = head;
+        ListNode fast = head;
         while (k - 1 > 0) {
             if(fast.next != null) {
                 fast = fast.next;
@@ -119,13 +108,13 @@ public class Linked1 {
         }
         return slow;
     }
-    public Node mergeTwoLists(Node l1, Node l2) {
-        Node newHead = new Node(-1);
-        Node end = newHead;
+    public ListNode mergeTwoLists(ListNode l1,ListNode l2) {
+        ListNode newHead = new ListNode(-1);
+        ListNode end = newHead;
         while (l1 != null && l2 != null) {
             if(l1.val < l2.val) {
                 end.next = l1;
-                l1 = l1.next;
+                l1 = l2.next;
                 end = end.next;
             }else {
                 end.next = l2;
@@ -141,12 +130,12 @@ public class Linked1 {
         }
         return newHead.next;
     }
-    public Node partition(Node pHead, int x) {
-        Node beg1 = null;
-        Node end1 = null;
-        Node beg2 = null;
-        Node end2 = null;
-        Node cur = pHead;
+    public ListNode patition(ListNode phead,int x) {
+        ListNode beg1 = null;
+        ListNode end1 = null;
+        ListNode beg2 = null;
+        ListNode end2 = null;
+        ListNode cur = phead;
         while (cur != null) {
             if(cur.val < x) {
                 if(beg1 == null) {
@@ -171,18 +160,18 @@ public class Linked1 {
             end2.next = null;
             return beg2;
         }
-        if(beg2 == null && beg1 != null) {
+        if(beg1 != null && beg2 == null) {
             end1.next = null;
             return beg1;
         }
-            end1.next = beg2;
-            end2.next = null;
+        end1.next = beg2;
+        end2.next = null;
         return beg1;
-    }
-    public Node deleteDuplication(Node pHead){
-        Node newHead = new Node(-1);
-        Node tmp = newHead;
-        Node cur = pHead;
+     }
+     public ListNode deleteDupLication(ListNode phead) {
+        ListNode newHead = new ListNode(-1);
+        ListNode end = newHead;
+        ListNode cur = phead;
         while (cur != null) {
             if(cur.next != null && cur.val == cur.next.val) {
                 while (cur.next != null && cur.val == cur.next.val) {
@@ -190,48 +179,48 @@ public class Linked1 {
                 }
                 cur = cur.next;
             }else {
-                tmp.next = cur;
-                tmp = tmp.next;
+                end.next = cur;
+                end = end.next;
                 cur = cur.next;
             }
         }
-        tmp.next = null;
+        end.next = null;
         return newHead.next;
-    }
-    public boolean chkPalindrome(Node A) {
-       Node slow = A;
-       Node fast = A;
-       while (fast != null && fast.next != null) {
-           slow = slow.next;
-           fast = fast.next.next;
-       }
-       Node cur = slow.next;
-       while (cur != null) {
-           Node curnext = cur.next;
-           cur.next = slow;
-           slow = cur;
-           cur = curnext;
-       }
-       while (slow != A) {
-           if(slow.val != A.val) {
-               return false;
-           }
-           if(A.next == slow) {
-               return true;
-           }
-           A = A.next;
-           slow = slow.next;
-       }
-       return true;
-    }
-    public Node getIntersectionNode(Node headA,Node headB) {
+     }
+     public boolean chkPalindrome(ListNode A) {
+        ListNode slow = A;
+        ListNode fast = A;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        ListNode cur = slow.next;
+        while (cur != null) {
+            ListNode curnext = cur.next;
+            cur.next = slow;
+            slow = cur;
+            cur = curnext;
+        }
+        while (slow != A) {
+            if(slow.val != A.val) {
+                return false;
+            }
+            if(A.next == slow) {
+                return true;
+            }
+            slow = slow.next;
+            A = A.next;
+        }
+        return true;
+     }
+     public ListNode getIntersectionNode(ListNode headA,ListNode headB) {
         if(headA == null || headB == null) {
             return null;
         }
         int lena = 0;
         int lenb = 0;
-        Node curL = headA;
-        Node curS = headB;
+        ListNode curL = headA;
+        ListNode curS = headB;
         while (curL != null) {
             lena++;
             curL = curL.next;
@@ -260,10 +249,10 @@ public class Linked1 {
             return curL;
         }
         return null;
-    }
-    public boolean hasCycle(Node head) {
-        Node fast = head;
-        Node slow = head;
+     }
+     public boolean hasCycle() {
+        ListNode slow = head;
+        ListNode fast = head;
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
@@ -275,13 +264,13 @@ public class Linked1 {
             return false;
         }
         return true;
-    }
-    public Node detectCycle() {
-        Node fast = head;
-        Node slow = head;
+     }
+     public ListNode detectCycle() {
+        ListNode slow = head;
+        ListNode fast = head;
         while (fast != null && fast.next != null) {
-            fast = fast.next.next;
             slow = slow.next;
+            fast = fast.next.next;
             if(fast == slow) {
                 break;
             }
@@ -290,26 +279,10 @@ public class Linked1 {
             return null;
         }
         slow = head;
-        while (slow != fast) {
-            slow = slow.next;
+        while (fast != slow) {
             fast = fast.next;
+            slow = slow.next;
         }
         return fast;
-    }
-
-    public static void main(String[] args) {
-        Linked1 linked1 = new Linked1();
-        linked1.addFirst(1);
-        linked1.addFirst(1);
-        linked1.addFirst(2);
-        linked1.addFirst(3);
-        linked1.addFirst(2);
-        linked1.addFirst(3);
-        linked1.addFirst(4);
-        linked1.addFirst(4);
-        linked1.display();
-        System.out.println();
-        //linked1.removeAllval(4);
-        linked1.display2(linked1.revrse());
-    }
+     }
 }
