@@ -1,0 +1,55 @@
+create table student2(
+id int,
+name varchar(20),
+password varchar(20),
+age int,
+sex varchar(5),
+birthday timestamp,
+score decimal(3,1),
+resume text
+);
+
+
+create table goods(
+goods_id int,
+goods_name varchar(20),
+unit_price decimal(7,2),
+category varchar(50),
+provider varchar(50)
+);
+
+
+create table customer(
+customer_id int,
+name varchar(20),
+address varchar(50),
+email varchar(20),
+sex varchar(5),
+card_id varchar(20)
+);
+
+
+create table purchase(
+order_id int,
+customer_id int,
+goods_id int,
+nums int
+);
+
+create table exam_result(
+id int,
+name varchar(20),
+chinese decimal(3,1),
+math decimal(3,1),
+english decimal(3,1)
+);
+
+insert into exam_result values
+(1,"唐三藏",67.8,78.9,89.1),
+(2,"孙悟空",87.5,78.5,90),
+(3,"猪八戒",50,60,70),
+(4,"沙和尚",96,45,32),
+(5,"曹孟德",45,56,65),
+(6,"刘玄德",86,56.7,98.5),
+(7,"孙仲谋",92.5,76.3,48);
+
