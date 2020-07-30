@@ -29,6 +29,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Java\java16_blogDemo\src\main\webapp" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.ArticleDao">
     <configuration name="ArticleDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -78,29 +84,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="916" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1596033918189">
+    <state x="916" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1596077445521">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="916" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1596033918189" />
-    <state width="835" height="212" key="GridCell.Tab.0.bottom" timestamp="1596037181094">
+    <state x="916" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1596077445521" />
+    <state width="893" height="210" key="GridCell.Tab.0.bottom" timestamp="1596095190903">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="835" height="212" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1596037181094" />
-    <state width="835" height="212" key="GridCell.Tab.0.center" timestamp="1596037181094">
+    <state width="893" height="210" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1596095190903" />
+    <state width="893" height="210" key="GridCell.Tab.0.center" timestamp="1596095190902">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="835" height="212" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1596037181094" />
-    <state width="835" height="212" key="GridCell.Tab.0.left" timestamp="1596037181094">
+    <state width="893" height="210" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1596095190902" />
+    <state width="893" height="210" key="GridCell.Tab.0.left" timestamp="1596095190902">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="835" height="212" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1596037181094" />
-    <state width="835" height="212" key="GridCell.Tab.0.right" timestamp="1596037181094">
+    <state width="893" height="210" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1596095190902" />
+    <state width="893" height="210" key="GridCell.Tab.0.right" timestamp="1596095190903">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="835" height="212" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1596037181094" />
-    <state x="1020" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1596013245341">
+    <state width="893" height="210" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1596095190903" />
+    <state x="1022" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1596087024191">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="1020" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1596013245341" />
+    <state x="1022" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1596087024191" />
   </component>
 </project>

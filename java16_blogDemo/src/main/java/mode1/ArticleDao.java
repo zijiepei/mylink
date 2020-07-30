@@ -102,13 +102,10 @@ public class ArticleDao {
 
     /*public static void main(String[] args) {
         ArticleDao articleDao = new ArticleDao();
-       /* Article article = new Article();
+        Article article = new Article();
         article.setTitle("woshibiaoti");
         article.setContent("woshi00");
-        article.setUserId(1);
-        articleDao.add(article);*/
-       /*List<Article> articles = articleDao.selectAll();
-        System.out.println(articles);
-       //articleDao.delete(1);
+        article.setUserId(2);
+        articleDao.add(article);
     }*/
 }
