@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3201fdd-79a8-4f28-b37b-dd3b185542e9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fUtgWHBX5NKkMmGHwGKdKgkdfG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.ThreadDemo24$BlockingQueue">
+    <configuration name="ThreadDemo18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadDemo18" />
+      <module name="线程1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadDemo19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadDemo19" />
+      <module name="线程1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadDemo21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadDemo21" />
+      <module name="线程1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadDemo22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadDemo22" />
+      <module name="线程1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadDemo24$BlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadDemo24$BlockingQueue" />
+      <module name="线程1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ThreadDemo24$BlockingQueue" />
+        <item itemvalue="Application.ThreadDemo22" />
+        <item itemvalue="Application.ThreadDemo21" />
+        <item itemvalue="Application.ThreadDemo19" />
+        <item itemvalue="Application.ThreadDemo18" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3201fdd-79a8-4f28-b37b-dd3b185542e9" name="Default Changelist" comment="" />
+      <created>1596284610904</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596284610904</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="992" y="169" key="#com.intellij.ide.util.MemberChooser" timestamp="1596382563042">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="992" y="169" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1596382563042" />
+    <state width="622" height="211" key="GridCell.Tab.0.bottom" timestamp="1596382883968">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="622" height="211" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1596382883968" />
+    <state width="622" height="211" key="GridCell.Tab.0.center" timestamp="1596382883967">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="622" height="211" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1596382883967" />
+    <state width="622" height="211" key="GridCell.Tab.0.left" timestamp="1596382883967">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="622" height="211" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1596382883967" />
+    <state width="622" height="211" key="GridCell.Tab.0.right" timestamp="1596382883967">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="622" height="211" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1596382883967" />
+    <state x="468" y="308" key="com.intellij.ide.util.TipDialog" timestamp="1596371019880">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="468" y="308" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1596371019880" />
+    <state x="862" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1596382431154">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="862" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1596382431154" />
+  </component>
+</project>
