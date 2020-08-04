@@ -1,5 +1,7 @@
 package Sort;
 
+import java.util.Stack;
+
 public class Sorts {
     public static void insertSort(int[] array) {
         for(int bound = 1;bound < array.length;bound++) {
@@ -168,6 +170,23 @@ public class Sorts {
         }
     }
 
+    public static void quickSortByLoop(int[] array) {
+        Stack<Integer> stack = new Stack<>();
+        stack.push(0);
+        stack.push(array.length - 1);
+        while (!stack.isEmpty()) {
+            int right = stack.pop();
+            int left = stack.pop();
+            if(left >= right) {
+                continue;
+            }
+            int index = patition(array,left,right);
+            stack.push(index + 1);
+            stack.push(right);
+            stack.push(left);
+            stack.push(index - 1);
+        }
+    }
     private static void swap(int[] array, int bound, int cur) {
         int tmp = array[cur];
         array[cur] = array[bound];

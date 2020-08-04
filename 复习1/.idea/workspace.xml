@@ -79,10 +79,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="989" y="135" key="#com.intellij.ide.util.MemberChooser" timestamp="1596437471992">
+    <state x="989" y="135" key="#com.intellij.ide.util.MemberChooser" timestamp="1596514044051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="989" y="135" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1596437471992" />
+    <state x="989" y="135" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1596514044051" />
     <state width="716" height="213" key="GridCell.Tab.0.bottom" timestamp="1596469811212">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -103,5 +103,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="806" y="193" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1596469777564" />
+    <state x="812" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1596514148482">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="812" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1596514148482" />
   </component>
 </project>
