@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5df4a9e-d631-4986-8dbd-adbe548de856" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dl670swUv5EhF9plaXSZB6CR4d" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.IOdemo6">
+    <configuration name="IOdemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IOdemo2" />
+      <module name="IO流" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOdemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IOdemo3" />
+      <module name="IO流" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOdemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IOdemo4" />
+      <module name="IO流" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOdemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IOdemo5" />
+      <module name="IO流" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOdemo6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IOdemo6" />
+      <module name="IO流" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IOdemo6" />
+        <item itemvalue="Application.IOdemo5" />
+        <item itemvalue="Application.IOdemo4" />
+        <item itemvalue="Application.IOdemo3" />
+        <item itemvalue="Application.IOdemo2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5df4a9e-d631-4986-8dbd-adbe548de856" name="Default Changelist" comment="" />
+      <created>1592987161419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592987161419</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="458" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1594877434697">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="458" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1594877434697" />
+    <state width="839" height="154" key="GridCell.Tab.0.bottom" timestamp="1593333411249">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="839" height="154" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593333411249" />
+    <state width="839" height="154" key="GridCell.Tab.0.center" timestamp="1593333411249">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="839" height="154" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593333411249" />
+    <state width="839" height="154" key="GridCell.Tab.0.left" timestamp="1593333411249">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="839" height="154" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593333411249" />
+    <state width="839" height="154" key="GridCell.Tab.0.right" timestamp="1593333411249">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="839" height="154" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593333411249" />
+    <state x="577" y="233" key="com.intellij.ide.util.TipDialog" timestamp="1593303709103">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="577" y="233" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1593303709103" />
+    <state x="354" y="4" key="new project wizard" timestamp="1594830816588">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="354" y="4" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1594830816588" />
+    <state x="808" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1593082705314">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="808" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1593082705314" />
+  </component>
+</project>
