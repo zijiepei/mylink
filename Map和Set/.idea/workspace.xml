@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a717286-2d7e-4d1d-bca1-db2c056b31e3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cIyqprNahzAutGgt8fH3JpgJpr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.TestSet">
+    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapSet.TestMap" />
+      <module name="Map和Set" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MapSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapSet.TestSet" />
+      <module name="Map和Set" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MapSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestSet" />
+        <item itemvalue="Application.TestMap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a717286-2d7e-4d1d-bca1-db2c056b31e3" name="Default Changelist" comment="" />
+      <created>1590230595351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590230595351</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="573" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1590233569540">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="573" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1590233569540" />
+    <state width="1491" height="213" key="GridCell.Tab.0.bottom" timestamp="1591006528599">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1591006528599" />
+    <state width="1491" height="213" key="GridCell.Tab.0.center" timestamp="1591006528599">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1591006528599" />
+    <state width="1491" height="213" key="GridCell.Tab.0.left" timestamp="1591006528599">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1591006528599" />
+    <state width="1491" height="213" key="GridCell.Tab.0.right" timestamp="1591006528599">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1591006528599" />
+    <state x="447" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1590978007328">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="447" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1590978007328" />
+    <state x="177" y="26" key="new project wizard" timestamp="1590978242698">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="177" y="26" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1590978242698" />
+    <state x="469" y="34" key="refactoring.ChangeSignatureDialog" timestamp="1590242833240">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="469" y="34" key="refactoring.ChangeSignatureDialog/0.0.1536.834@0.0.1536.834" timestamp="1590242833240" />
+  </component>
+</project>
