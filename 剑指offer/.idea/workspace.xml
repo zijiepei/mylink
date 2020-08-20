@@ -23,6 +23,26 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JZ13.Main1" />
+      <module name="剑指offer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JZ13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -37,6 +57,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state width="768" height="211" key="GridCell.Tab.0.bottom" timestamp="1597935689282">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="768" height="211" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597935689282" />
+    <state width="768" height="211" key="GridCell.Tab.0.center" timestamp="1597935689282">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="768" height="211" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597935689282" />
+    <state width="768" height="211" key="GridCell.Tab.0.left" timestamp="1597935689282">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="768" height="211" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597935689282" />
+    <state width="768" height="211" key="GridCell.Tab.0.right" timestamp="1597935689282">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="768" height="211" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597935689282" />
+    <state x="720" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1597030619813">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="720" y="253" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1597030619813" />
+    <state x="353" y="137" key="new project wizard" timestamp="1597030673437">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="353" y="137" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1597030673437" />
     <state x="843" y="155" key="search.everywhere.popup" timestamp="1594089762550">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
