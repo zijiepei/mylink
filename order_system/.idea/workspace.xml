@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d598dda-3cee-4180-8a9f-dc269c2bde33" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gLXsIlNG52z5Pho5ws5ISnrCjG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="order_system" type="DEPLOY_HOST_RUN_CONFIGURATION" factoryName="Deploy to Host">
+      <option name="accountModel" />
+      <option name="accountModels" />
+      <option name="address" />
+      <option name="afterCommand" value="" />
+      <option name="alreadyReset" value="true" />
+      <option name="autoOpen" value="false" />
+      <option name="beforeCommand" value="" />
+      <option name="defaultTabIdx" value="0" />
+      <option name="ecsInstance">
+        <EcsInstance>
+          <option name="OSType" />
+          <option name="instanceId" />
+          <option name="instanceName" />
+          <option name="netType" />
+          <option name="privateIps" />
+          <option name="publicIps" />
+          <option name="regionId" />
+          <option name="tags" />
+        </EcsInstance>
+      </option>
+      <option name="ecsInstances" />
+      <option name="hostIds">
+        <list>
+          <option value="1" />
+        </list>
+      </option>
+      <option name="hostTagId" value="0" />
+      <option name="location" value="/root/apache-tomcat-8.5.57/webapps" />
+      <option name="pathOrUrl" value="C:\Users\Administrator\Desktop\HGtz2222-classroom_code-master\classroom_code\order_system\target\java16_order_system.war" />
+      <option name="tagId" value="0" />
+      <option name="terminalCommand" />
+      <option name="type" value="HOST" />
+      <option name="uploadType" value="MAVEN" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../order_system\pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d598dda-3cee-4180-8a9f-dc269c2bde33" name="Default Changelist" comment="" />
+      <created>1597895051351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597895051351</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="476" y="81" key="#Deploy_to_Host" timestamp="1598188336737">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="476" y="81" key="#Deploy_to_Host/0.0.1536.834@0.0.1536.834" timestamp="1598188336737" />
+    <state x="360" y="75" key="#Notifications" timestamp="1598365381464">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="360" y="75" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1598365381464" />
+    <state x="548" y="171" key="FileChooserDialogImpl" timestamp="1597903268392">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="548" y="171" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1597903268392" />
+    <state width="1490" height="225" key="GridCell.Tab.0.bottom" timestamp="1598364744295">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1490" height="225" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598364744295" />
+    <state width="1490" height="225" key="GridCell.Tab.0.center" timestamp="1598364744295">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1490" height="225" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1598364744295" />
+    <state width="1490" height="225" key="GridCell.Tab.0.left" timestamp="1598364744295">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1490" height="225" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1598364744295" />
+    <state width="1490" height="225" key="GridCell.Tab.0.right" timestamp="1598364744295">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1490" height="225" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1598364744295" />
+    <state x="442" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1598365440270">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="442" y="260" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1598365440270" />
+  </component>
+</project>
